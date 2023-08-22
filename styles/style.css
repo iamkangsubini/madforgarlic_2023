@@ -1,0 +1,255 @@
+/* header */
+header {
+    background-color: #000;
+}
+/* title */
+header .title {
+    width: 1180px; margin: 0 auto;
+    padding: 33.43px 0;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .title h1 {
+    width: 230px; height: 33.14px;
+}
+header .title h1 a {}
+header .title h1 a img {
+    width: 100%;
+}
+header .title nav {
+}
+header .title nav a {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 1.777rem; font-weight: 700;
+    letter-spacing: -0.02em;
+}
+header .title nav a:first-child {
+    margin-left: 0;
+}
+
+/* main */
+main {
+    background: rgb(184, 184, 184);
+}
+/* swiper */
+main .swiper {}
+main .swiper .swiper-wrapper {}
+main .swiper .swiper-wrapper .swiper-slider {}
+/* bestmenu */
+main .bestmenu {}
+main .bestmenu .title {
+    background: url(../images/bestmenu_bg.jpg) no-repeat;
+    background-size: cover;
+    width: 1180px; margin: 0 auto;
+    padding: 140px 0 70px;
+}
+main .bestmenu .title h2 {
+    font-weight: 700; font-size: 3.157rem;
+    letter-spacing: -0.02; text-align: center;
+}
+main .bestmenu .contents {
+    width: 1180px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    padding: 0 37.5px 50px;
+}
+/* food_left */
+main .bestmenu .contents .food_left {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .bestmenu .contents .food_left p {
+    width: 525px; height: 333px;
+}
+main .bestmenu .contents .food_left p img {
+    width: 100%;
+}
+main .bestmenu .contents .food_left .explanation {
+    background-color: aquamarine;
+    width: 465px; border-radius: 10px;
+    padding: 30px 45px;
+    line-height: 40px; background: #222;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .bestmenu .contents .food_left .explanation h3 {
+    font-weight: 700; font-size: 2.369rem;
+    letter-spacing: -0.02em; color: #fff;
+    margin: 30px 0 40px;
+}
+main .bestmenu .contents .food_left .explanation h4 {
+    font-weight: 500; font-size: 1.777rem;
+    letter-spacing: -0.02em; color: #fff;
+    margin-bottom: 40px;
+}
+main .bestmenu .contents .food_left .explanation p {
+    font-size: 1.333rem; color: #fff;
+    letter-spacing: -0.02em; line-height: 30px;
+    margin-bottom: 40px;
+}
+main .bestmenu .contents .food_left .explanation a {
+    font-weight: 500; font-size: 1.333rem;
+    letter-spacing: -0.02em; color: #222;
+    background: #fff; border-radius: 50px;
+    padding: 20px 40px;d
+}
+/* food_right */
+main .bestmenu .contents .food_right {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .bestmenu .contents .food_right p {
+    width: 525px; height: 333px;
+}
+main .bestmenu .contents .food_right p img {
+    width: 100%;
+}
+main .bestmenu .contents .food_right .explanation {
+    background-color: aquamarine;
+    width: 465px; border-raius: 10px;
+    padding: 30px 45px;
+    line-height: 40px; background: #222;
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main .bestmenu .contents .food_right .explanation h3 {
+    font-weight: 700; font-size: 2.369rem;
+    letter-spacing: -0.02em; color: #fff;
+    margin: 30px 0 40px;
+}
+main .bestmenu .contents .food_right .explanation h4 {
+    font-weight: 500; font-size: 1.777rem;
+    letter-spacing: -0.02em; color: #fff;
+    margin-bottom: 40px;
+}
+main .bestmenu .contents .food_right .explanation p {
+    font-size: 1.333rem; color: #fff;
+    letter-spacing: -0.02em; line-height: 30px;
+    margin-bottom: 40px;
+}
+main .bestmenu .contents .food_right .explanation a {
+    font-weight: 500; font-size: 1.333rem;
+    letter-spacing: -0.02em; color: #222;
+    background: #fff; border-radius: 50px;
+    padding: 20px 40px;
+}
+/* bestmenu-btm */
+main .bestmenu .bottom {
+    width: 1180px; margin: 0 auto;
+}
+main .bestmenu .bottom img {}
+/* membership */
+main {}
+main .membership { 
+    width: 100%; height: 703px;
+    background:  url(../images/membership_bg.jpg) no-repeat center;
+    background-size: cover;
+    display: flex; flex-flow: column nowrap;
+    align-items: center; padding: 140px 307px;
+}
+main .membership h2 {
+    font-weight: 700; font-size: 3.157rem;
+    letter-spacing: -0.02em; color: #fff;
+    margin-bottom: 30px;
+}
+main .membership p {
+    font-weight: 500; font-size: 1.777rem;
+    letter-spacing: -0.02em; color: #fff;
+    margin-bottom: 70px;
+}
+main .membership .contents {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; 
+}
+/* birthday */
+main .membership .contents .birthday {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center; margin-right: 120px;
+}
+main .membership .contents .birthday a {}
+main .membership .contents .birthday a p {
+    width: 100px; height: 100px;
+}
+main .membership .contents .birthday a p img {
+    width: 100%;
+}
+main .membership .contents .birthday a h3 {
+    font-weight: 500; font-size: 37;
+    letter-spacing: -0.02em; color: #fff;
+}
+main .membership .contents .birthday a .datil {}
+/* rewards */
+main .membership .contents .rewards {}
+main .membership .contents .rewards a {}
+main .membership .contents .rewards a img {}
+main .membership .contents .rewards a h3 {}
+main .membership .contents .rewards a p {}
+/* badge */
+main .membership .contents .badge {}
+main .membership .contents .badge a {}
+main .membership .contents .badge a img {}
+main .membership .contents .badge a h3 {}
+main .membership .contents .badge a p {}
+/* reservation */
+main .reservation {}
+main .reservation .reservation_frm {}
+main .reservation .reservation_frm fieldset {}
+main .reservation .reservation_frm fieldset h2 {}
+main .reservation .reservation_frm fieldset ul {}
+main .reservation .reservation_frm fieldset ul > li {}
+/* form-day */
+main .reservation .reservation_frm fieldset ul .day {}
+main .reservation .reservation_frm fieldset ul .day #date_btn {}
+main .reservation .reservation_frm fieldset ul .day #date_btn img {}
+main .reservation .reservation_frm fieldset ul .day #date_btn span {}
+main .reservation .reservation_frm fieldset ul .day #time_btn {}
+main .reservation .reservation_frm fieldset ul .day #time_btn img {}
+main .reservation .reservation_frm fieldset ul .day #time_btn span {}
+/* form-area */
+main .reservation .reservation_frm fieldset ul .area {}
+main .reservation .reservation_frm fieldset ul .area #are_btn {}
+main .reservation .reservation_frm fieldset ul .area #are_btn img {}
+main .reservation .reservation_frm fieldset ul .area #are_btn span {}
+/* form-line */
+main .reservation .reservation_frm fieldset ul line {}
+main .reservation .reservation_frm fieldset ul line span {}
+/* form-personnel */
+main .reservation .reservation_frm fieldset ul .personnel_input {}
+main .reservation .reservation_frm fieldset ul .personnel_input img {}
+main .reservation .reservation_frm fieldset ul .personnel_input img #personnel {}
+/* form-name */
+main .reservation .reservation_frm fieldset ul .name_input {}
+main .reservation .reservation_frm fieldset ul .name_input img {}
+main .reservation .reservation_frm fieldset ul .name_input img #personnel {}
+/* form-call */
+main .reservation .reservation_frm fieldset ul .call_input {}
+main .reservation .reservation_frm fieldset ul .call_input img {}
+main .reservation .reservation_frm fieldset ul .call_input img #personnel {}
+/* form-reservation_btn */
+main .reservation .reservation_frm fieldset ul .reservation_button {}
+main .reservation .reservation_frm fieldset ul .reservation_button #reservation_btn {}
+
+/* footer */
+footer {}
+footer .contents {}
+/* top */
+footer .contents .top {}
+footer .contents .top #fnb {}
+footer .contents .top #fnb a {}
+footer .contents .top .link {}
+footer .contents .top .link .instagram {}
+footer .contents .top .link .instagram img {}
+footer .contents .top .link .facebook {}
+footer .contents .top .link .facebook img {}
+footer .contents .top .link .youtube {}
+footer .contents .top .link .youtube img {}
+footer .contents .top .link .kakao {}
+footer .contents .top .link .kakao img {}
+/* address */
+footer #address {}
+/* number */
+footer .number {}
+footer .number p {}
+footer .number p em {}
