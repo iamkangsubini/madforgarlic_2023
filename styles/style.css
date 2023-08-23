@@ -30,9 +30,6 @@ header .title nav a:first-child {
 }
 
 
-
-
-
 /* main */
 main {}
 /* main-1. swiper-slide */
@@ -92,9 +89,6 @@ main #madforgarlic_slide .swiper-wrapper .slide2 {
     /* slide대상으로 img태그를 삽입한 경우 높이값은 이미지 태그크기만큼 자동으로 설정되므로 별도의 높이값은 작성할 필요가 없다. */
 }
 main #madforgarlic_slide .swiper-wrapper .slide2 img {width: 100%;}
-
-
-
 
 
 /* bestmenu */
@@ -189,7 +183,7 @@ main .bestmenu .contents .food_right .explanation p {
     line-height: 30px; color: #fff; 
     margin-bottom: 40px;
 }
-main .bestmenu .contents .food_right .explanation #view_btn {
+main .bestmenu .contents .food_right .explanation #view_btn2 {
     width: 185px; height: 55px;
     background: #fff; padding: 20px 40px;
     border-radius: 50px;
@@ -243,7 +237,7 @@ main .membership_bg .membership .contents .birthday h3 {
 
 }
 main .membership_bg .membership .contents .birthday .detail {
-    width: 200px; height: 60px;
+    width: 230px; height: 60px;
     font-weight: 500; font-size: 1.333rem; text-align: center;
     letter-spacing: -0.02em; color: #fff;
     line-height: 30px 
@@ -266,7 +260,7 @@ main .membership_bg .membership .contents .rewards h3 {
 
 }
 main .membership_bg .membership .contents .rewards .detail {
-    width: 200px; height: 60px;
+    width: 230px; height: 60px;
     font-weight: 500; font-size: 1.333rem; text-align: center;
     letter-spacing: -0.02em; color: #fff;
     line-height: 30px 
@@ -288,7 +282,7 @@ main .membership_bg .membership .contents .badge h3 {
     margin-bottom: 40px; 
 }
 main .membership_bg .membership .contents .badge .detail {
-    width: 200px; height: 60px;
+    width: 230px; height: 60px;
     font-weight: 500; font-size: 1.333rem; text-align: center;
     letter-spacing: -0.02em; color: #fff;
     line-height: 30px 
@@ -446,8 +440,11 @@ footer .contents_bg .contents .top #fnb a {
     position: relative;
 }
 footer .contents_bg .contents .top #fnb a::after {
-    display: block; content: ''; width: 1px; height: 11px; 
-    background: #fff; position: absolute; left: 63px; bottom: 20px;
+    display: inline-block; content: ''; width: 1px; height: 11px; 
+    background: #fff; margin: 0 10px;
+}
+footer .contents_bg .contents .top #fnb a:nth-child(7)::after {
+    display: none;
 }
 footer .contents_bg .contents .top .link {}
 footer .contents_bg .contents .top .link .instagram {
@@ -474,6 +471,10 @@ footer .contents_bg #address {
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: -0.02em; line-height: 26px;
     margin-bottom: 25px;
+}
+footer .contents_bg #address span {
+    display: inline-block; width: 1px; height: 11px; margin: 0 10px;
+    background: #fff;
 }
 /* number */
 footer .contents_bg .number {}
