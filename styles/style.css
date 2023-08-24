@@ -24,6 +24,12 @@ header .title nav a {
     color: #fff;
     font-size: 1.777rem; font-weight: 700;
     letter-spacing: -0.02em;
+    transition: border-bottom 0.5s;
+    transition: padding-bottom 0.5s;
+}
+header .title nav a:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
 }
 header .title nav a:first-child {
     margin-left: 0;
@@ -70,9 +76,19 @@ main #madforgarlic_slide.swiper .swiper-button-next {
 main #madforgarlic_slide .swiper-button-prev {
     background: url(../images/drirection_left.png);
     left: 200px;
+    transition: background 0.3s;
+}
+main #madforgarlic_slide .swiper-button-prev:hover {
+    background: url(../images/drirection_left_hover.png);
+    left: 200px;
 }
 main #madforgarlic_slide .swiper-button-next {
     background: url(../images/drirection_right.png);
+    right: 200px;
+    transition: background 0.3s;
+}
+main #madforgarlic_slide .swiper-button-next:hover {
+    background: url(../images/drirection_right_hover.png);
     right: 200px;
 }
 /* swiper-slide 라이브러리에서 기본제공하는 이전, 다음 숨기기 */
@@ -146,10 +162,13 @@ main .bestmenu .contents .food_left .explanation p {
 }
 main .bestmenu .contents .food_left .explanation #view_btn {
     width: 185px; height: 55px;
-    background: #fff; padding: 20px 40px;
+    background: #fff; padding: 20px 20px;
     border-radius: 50px;
-    font-weight: 500; font-size: 1.2rem; letter-spacing: -0.02em;
+    font-weight: 700; font-size: 1.2rem; letter-spacing: -0.02em;
     color: #222;
+}
+main .bestmenu .contents .food_left .explanation #view_btn:hover {
+    color: #cb0e05;
 }
 /* food_right */
 main .bestmenu .contents .food_right {
@@ -185,10 +204,13 @@ main .bestmenu .contents .food_right .explanation p {
 }
 main .bestmenu .contents .food_right .explanation #view_btn2 {
     width: 185px; height: 55px;
-    background: #fff; padding: 20px 40px;
+    background: #fff; padding: 20px 20px;
     border-radius: 50px;
-    font-weight: 500; font-size: 1.2rem; letter-spacing: -0.02em;
+    font-weight: 700; font-size: 1.2rem; letter-spacing: -0.02em;
     color: #222;
+}
+main .bestmenu .contents .food_right .explanation #view_btn2:hover {
+    color: #cb0e05;
 }
 /* bestmenu-btm */
 main .bestmenu .bottom {
@@ -441,7 +463,7 @@ footer .contents_bg .contents .top #fnb a {
 }
 footer .contents_bg .contents .top #fnb a::after {
     display: inline-block; content: ''; width: 1px; height: 11px; 
-    background: #fff; margin: 0 10px;
+    background: #fff; margin: 0 6px 0 15px;
 }
 footer .contents_bg .contents .top #fnb a:nth-child(7)::after {
     display: none;
