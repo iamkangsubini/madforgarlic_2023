@@ -36,7 +36,152 @@ header .title nav a:first-child {
 }
 
 /* main */
-
+main {}
+main .middle_title_bg {
+    width: 100%; height: 600px; 
+    background: url(../images/menu_pasta/menu_pasta_bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+main .middle_title_bg .middle_title {
+    width: 1180px; height: 600px; margin: 0 auto;
+}
+main .middle_title_bg .middle_title h2 {
+    font-family: 700; font-size: 3.157rem; letter-spacing: -0.02em; color: #fff;
+    text-align: center; padding: 282px;
+}
+/* kind */
+main .pasta_kind_bg {background: #fff;}
+main .pasta_kind_bg .pasta_kind {
+    width: 1180px; margin: 0 auto; padding: 140px 140px;
+    display: flex; flex-flow: column nowrap; justify-content: center; 
+    align-items: center;
+}
+/* top */
+main .pasta_kind_bg .pasta_kind .top {
+    width: 900px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between; margin-bottom: 120px;
+}
+/* oil-pasta */
+main .pasta_kind_bg .pasta_kind .top .oil {
+    width: 380px; display: flex; flex-flow: column nowrap;
+    align-items: flex-start;
+}
+main .pasta_kind_bg .pasta_kind .top .oil .img {
+    align-self: center; width: 180px; height: 180px;
+    margin-bottom: 30px;
+}
+main .pasta_kind_bg .pasta_kind .top .oil .img img {width: 100%;}
+main .pasta_kind_bg .pasta_kind .top .oil .name {
+    width: 380px; display: flex; flex-flow: row nowrap; 
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .top .oil .name h3 {
+    font-family: 700; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .top .oil .name p {
+    font-family: 500; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .top .oil .name p em {font-family: 400;}
+main .pasta_kind_bg .pasta_kind .top .oil span {
+    display: block; width: 380px; height: 3px; background: #cb0e05;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .top .oil p {
+    letter-spacing: -0.02em; color: #222; line-height: 23px;
+}
+/* tomato-pasta */
+main .pasta_kind_bg .pasta_kind .top .tomato {
+    width: 380px; display: flex; flex-flow: column nowrap;
+    align-items: flex-start;
+}
+main .pasta_kind_bg .pasta_kind .top .tomato .img {
+    align-self: center; width: 180px; height: 180px;
+    margin-bottom: 30px;
+}
+main .pasta_kind_bg .pasta_kind .top .tomato .img img {width: 100%;}
+main .pasta_kind_bg .pasta_kind .top .tomato .name {
+    width: 380px; display: flex; flex-flow: row nowrap; 
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .top .tomato .name h3 {
+    font-family: 700; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .top .tomato .name p {
+    font-family: 500; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .top .tomato .name p em {font-family: 400;}
+main .pasta_kind_bg .pasta_kind .top .tomato span {
+    display: block; width: 380px; height: 3px; background: #cb0e05;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .top .tomato p {
+    letter-spacing: -0.02em; color: #222; line-height: 23px;
+}
+/* bottom */
+main .pasta_kind_bg .pasta_kind .bottom {
+    width: 900px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+/* cream-pasta */
+main .pasta_kind_bg .pasta_kind .bottom .cream {
+    width: 380px; display: flex; flex-flow: column nowrap;
+    align-items: flex-start;
+}
+main .pasta_kind_bg .pasta_kind .bottom .cream .img {
+    align-self: center; width: 180px; height: 180px;
+    margin-bottom: 30px;
+}
+main .pasta_kind_bg .pasta_kind .bottom .cream .img img {width: 100%;}
+main .pasta_kind_bg .pasta_kind .bottom .cream .name {
+    width: 380px; display: flex; flex-flow: row nowrap; 
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .bottom .cream .name h3 {
+    font-family: 700; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .bottom .cream .name p {
+    font-family: 500; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .bottom .cream .name p em {font-family: 400;}
+main .pasta_kind_bg .pasta_kind .bottom .cream span {
+    display: block; width: 380px; height: 3px; background: #cb0e05;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .bottom .cream p {
+    letter-spacing: -0.02em; color: #222; line-height: 23px;
+}
+/* basil-pasta */
+main .pasta_kind_bg .pasta_kind .bottom .basil {
+    width: 380px; display: flex; flex-flow: column nowrap;
+    align-items: flex-start;
+}
+main .pasta_kind_bg .pasta_kind .bottom .basil .img {
+    align-self: center; width: 180px; height: 180px;
+    margin-bottom: 30px;
+}
+main .pasta_kind_bg .pasta_kind .bottom .basil .img img {width: 100%;}
+main .pasta_kind_bg .pasta_kind .bottom .basil .name {
+    width: 380px; display: flex; flex-flow: row nowrap; 
+    justify-content: space-between; align-items: center;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .bottom .basil .name h3 {
+    font-family: 700; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .bottom .basil .name p {
+    font-family: 500; font-size: 1.5rem; letter-spacing: -0.02em; color: #222;
+}
+main .pasta_kind_bg .pasta_kind .bottom .basil .name p em {font-family: 400;}
+main .pasta_kind_bg .pasta_kind .bottom .basil span {
+    display: block; width: 380px; height: 3px; background: #cb0e05;
+    margin-bottom: 20px;
+}
+main .pasta_kind_bg .pasta_kind .bottom .basil p {
+    letter-spacing: -0.02em; color: #222; line-height: 23px;
+}
 
 /* footer */
 footer {}

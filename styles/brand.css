@@ -36,11 +36,13 @@ header .title nav a:first-child {
 }
 
 /* main */
-main {}
+main {
+    background: #fff;
+}
 /* middle_title*/
 main .middle_title_bg {
     width: 100%; height: 600px; 
-    background: url(../images/brand_bg.jpg) no-repeat fixed center 5px;
+    background: url(../images/brand/brand_bg.jpg) no-repeat fixed center 5px;
     background-size: cover;
 }
 main .middle_title_bg .middle_title {

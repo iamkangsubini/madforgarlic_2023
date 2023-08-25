@@ -74,21 +74,21 @@ main #madforgarlic_slide.swiper .swiper-button-next {
     width: 70px; height: 70px;
 }
 main #madforgarlic_slide .swiper-button-prev {
-    background: url(../images/drirection_left.png);
+    background: url(../images/main/drirection_left.png);
     left: 200px;
     transition: background 0.3s;
 }
 main #madforgarlic_slide .swiper-button-prev:hover {
-    background: url(../images/drirection_left_hover.png);
+    background: url(../images/main/drirection_left_hover.png);
     left: 200px;
 }
 main #madforgarlic_slide .swiper-button-next {
-    background: url(../images/drirection_right.png);
+    background: url(../images/main/drirection_right.png);
     right: 200px;
     transition: background 0.3s;
 }
 main #madforgarlic_slide .swiper-button-next:hover {
-    background: url(../images/drirection_right_hover.png);
+    background: url(../images/main/drirection_right_hover.png);
     right: 200px;
 }
 /* swiper-slide 라이브러리에서 기본제공하는 이전, 다음 숨기기 */
@@ -113,7 +113,7 @@ main .bestmenu {
 }
 main .bestmenu .title {
     width: 1180px; margin: 0 auto;
-    background: url(../images/bestmenu_bg.jpg) no-repeat;
+    background: url(../images/main/bestmenu_bg.jpg) no-repeat;
     background-size: cover;
 }
 main .bestmenu .title h2 {
@@ -162,10 +162,10 @@ main .bestmenu .contents .food_left .explanation p {
 }
 main .bestmenu .contents .food_left .explanation #view_btn {
     width: 185px; height: 55px;
-    background: #fff; padding: 20px 20px;
+    background: #fff; padding: 20px 0px; text-align: center;
     border-radius: 50px;
-    font-weight: 700; font-size: 1.2rem; letter-spacing: -0.02em;
-    color: #222;
+    font-weight: 500; font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222; transition: color 0.3s;
 }
 main .bestmenu .contents .food_left .explanation #view_btn:hover {
     color: #cb0e05;
@@ -204,10 +204,10 @@ main .bestmenu .contents .food_right .explanation p {
 }
 main .bestmenu .contents .food_right .explanation #view_btn2 {
     width: 185px; height: 55px;
-    background: #fff; padding: 20px 20px;
+    background: #fff; padding: 20px 0; text-align: center;
     border-radius: 50px;
-    font-weight: 700; font-size: 1.2rem; letter-spacing: -0.02em;
-    color: #222;
+    font-weight: 500; font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222; transition: color 0.3s;
 }
 main .bestmenu .contents .food_right .explanation #view_btn2:hover {
     color: #cb0e05;
@@ -220,7 +220,7 @@ main .bestmenu .bottom img {width: 100%;}
 /* membership */
 main .membership_bg { 
     width: 100%;
-    background:  url(../images/membership_bg.jpg) no-repeat center 80%;
+    background:  url(../images/main/membership_bg.jpg) no-repeat center 80%;
     background-size: cover;
 }
 main .membership_bg .membership {
@@ -312,7 +312,7 @@ main .membership_bg .membership .contents .badge .detail {
 /* reservation */
 main .reservation_bg {
     width: 100%; height: 1278px;
-    background:  url(../images/reservation_bg.jpg) no-repeat center;
+    background:  url(../images/main/reservation_bg.jpg) no-repeat center;
     background-size: cover;
 }
 main .reservation_bg .reservation {
@@ -433,8 +433,9 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .reservation_butt
 main .reservation_bg .reservation #reservation_frm fieldset ul .reservation_button #reservation_btn {
     width: 341px; height: 87px; background: #ad8350; border-radius: 15px;
     font-weight: 500; font-size: 2.2rem; letter-spacing: -0.02em;
-    color: #fff;
+    color: #fff; transition: color 0.3s;
 }
+main .reservation_bg .reservation #reservation_frm fieldset ul .reservation_button #reservation_btn:hover {color: #222;}
 
 /* footer */
 footer {}

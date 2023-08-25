@@ -39,7 +39,7 @@ header .title nav a:first-child {
 main {}
 main .middle_title_bg {
     width: 100%; height: 600px; 
-    background: url(../images/menu_bg.jpg) no-repeat fixed center 1px;
+    background: url(../images/menu/menu_bg.jpg) no-repeat fixed center 1px;
     background-size: cover;
 }
 main .middle_title_bg .middle_title {
@@ -64,10 +64,11 @@ main .kind_bg .kind .pasta {
 }
 main .kind_bg .kind .pasta p {
     width: 238px; height: 244px;
-    background-image: url(../images/pasta.png);
+    background-image: url(../images/menu/pasta.png);
+    transition: background-image 0.2s;
 }
 main .kind_bg .kind .pasta p:hover {
-    background-image: url(../images/pasta_hover.png);
+    background-image: url(../images/menu/pasta_hover.png);
 }
 main .kind_bg .kind .pasta h3 {
     font-weight: 700; font-size: 2.2rem; letter-spacing: -0.02em; color: #cb0e05;
@@ -80,10 +81,11 @@ main .kind_bg .kind .pizza {
 }
 main .kind_bg .kind .pizza p {
     width: 238px; height: 244px;
-    background-image: url(../images/pizza.png);
+    background-image: url(../images/menu/pizza.png);
+    transition: background-image 0.2s;
 }
 main .kind_bg .kind .pizza p:hover {
-    background-image: url(../images/pizza_hover.png);
+    background-image: url(../images/menu/pizza_hover.png);
 }
 main .kind_bg .kind .pizza h3 {
     font-weight: 700; font-size: 2.2rem; letter-spacing: -0.02em; color: #cb0e05;
@@ -96,10 +98,11 @@ main .kind_bg .kind .steak {
 }
 main .kind_bg .kind .steak p {
     width: 238px; height: 244px;
-    background-image: url(../images/steak.png);
+    background-image: url(../images/menu/steak.png);
+    transition: background-image 0.2s;;
 }
 main .kind_bg .kind .steak p:hover {
-    background-image: url(../images/steak_hover.png);
+    background-image: url(../images/menu/steak_hover.png);
 }
 main .kind_bg .kind .steak h3 {
     font-weight: 700; font-size: 2.2rem; letter-spacing: -0.02em; color: #cb0e05;
