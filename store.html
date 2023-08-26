@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>STORE | Mad for Garlic</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/garlic_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/garlic_favicon.ico" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/store.css">
+</head>
+<body> 
+    <!-- header -->
+    <header>
+        <!-- title -->
+        <section class="title">
+            <h1><a href="./index.html"><img src="./images/logo_white.png" alt="Mad for Garlic"></a></h1>
+            <nav>
+                <a href="./brand.html">BRNAD</a>
+                <a href="./menu.html">MENU</a>
+                <a href="./store.html">STORE</a>
+                <a href="#">RESERVATION</a>
+            </nav>
+        </section>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="middle_title_bg">
+            <div class="middle_title">
+                <h2>STORE</h2>
+            </div>
+        </section>
+        <section class="search_bg">
+            <div class="search">
+                <div class="left">
+                    <h3>STORE SEARCH</h3>
+                    <p class="village">우리동네에서 가장 가까운 매드포갈릭?</p>
+                    <p class="underline">지금, 가까운 매드포갈릭 매장에 방문하셔서 사랑하는 사람들과 함께<br>질 좋은 스테이크와 신선한 샐러드를 즐겨보세요.</p>
+                </div> 
+                <div class="right">
+                    <img src="./images/store/building.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="find_bg">
+            <div class="find">
+                <form action="#" method="post" id="store_find_frm">
+                    <fieldset>
+                        <legend class="skip">검색영역</legend>
+                        <ul>
+                            <li class="map">
+                                <div id="map_part"></div>
+                            </li>
+                            <li>
+                                <ul id="select_group">
+                                    <li class="sity_li">
+                                        <select name="sity" id="sity_select">
+                                            <option value="">시/도</option>
+                                            <option value="">경기</option>
+                                            <option value="">경남</option>
+                                            <option value="">광주</option>
+                                            <option value="">대구</option>
+                                            <option value="">대전</option>
+                                            <option value="">부산</option>
+                                            <option value="">서울</option>
+                                            <option value="">인천</option>
+                                            <option value="">전북</option>
+                                            <option value="">제주</option>
+                                            <option value="">충남</option>
+                                        </select>
+                                    </li>
+                                    <li class="zone_li">
+                                        <select name="zone" id="zone_select">
+                                            <option value="">구/군</option>
+                                        </select>
+                                    </li>
+                                    <li class="service_li">
+                                        <button type="button" id="service_btn">
+                                            <span>매장서비스</span>
+                                            <img src="./images/store/selector.png" alt="">
+                                        </button>
+                                    </li>
+                                    <li class="name_li">
+                                        <input type="text" id="store_name" placeholder="매장명을 입력하세요.">
+                                    </li>
+                                    <li class="return_li">
+                                        <button type="button" id="return_btn">
+                                            <img src="./images/store/return.png" alt="">
+                                            <span>초기화</span>
+                                        </button>
+                                    </li>
+                                    <li class="search_li">
+                                        <button type="button" id="search_btn">
+                                            <img src="./images/store/search.png" alt="">
+                                            <span>검색</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="location">
+                                <img src="./images/store/location.png" alt="">
+                                <span>8건의 검색결과가 있습니다.</span>
+                            </li>
+                            <li class="line">
+                                <span></span>
+                            </li>
+                            <li id="place">
+                                <div class="first_line">
+                                    <div class="left">
+                                        <h4>발산점</h4>
+                                        <span></span>
+                                        <p class="address">서울 강서구 공항대로 235<br>쿠쿠 마곡빌딩 4층</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>02-2659=2889</span>
+                                        </div>
+                                    </div> 
+                                    <div class="right">
+                                        <h4>인천송도점</h4>
+                                        <span></span>
+                                        <p class="address">인천 연수구 센트럴로 160 센트럴파크<br>푸르지오 C동 2층 매드포갈릭</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>032-834-9220</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="second_line">
+                                    <div class="left">
+                                        <h4>목동점</h4>
+                                        <span></span>
+                                        <p class="address">서울 양천구 목동로 233-3<br>삼성화재서비스빌딩</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>02-2061-1191</span>
+                                        </div>
+                                    </div> 
+                                    <div class="right">
+                                        <h4>합정점</h4>
+                                        <span></span>
+                                        <p class="address">서울 마포구 월드컵로3길 14마포<br>한강 2차 푸르지오 1층</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>02-322-7315</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="third_line">
+                                    <div class="left">
+                                        <h4>여의도점</h4>
+                                        <span></span>
+                                        <p class="address">서울 영등포구 국제금융로2길 25<br>현대차증권빌딩 지하1층</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>02-783-5296</span>
+                                        </div>
+                                    </div> 
+                                    <div class="right">
+                                        <h4>사당점</h4>
+                                        <span></span>
+                                        <p class="address">서울 서초구 방배천로 11<br>파스텔시티 2층</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>02-3472-8411</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="fourth_line">
+                                    <div class="left">
+                                        <h4>역산점</h4>
+                                        <span></span>
+                                        <p class="address">서울 강남구 테헤란로 134 포스코<br>P&S타워 지하1층</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>02-562-6977</span>
+                                        </div>
+                                    </div> 
+                                    <div class="right">
+                                        <h4>수원인계점</h4>
+                                        <span></span>
+                                        <p class="address">경기 수원시 팔달구 권광로 178<br>한국교직원공제회 경기회관 지하 1층</p>
+                                        <div class="number">
+                                            <img src="./images/store/telephone.png" alt="">
+                                            <span>031-224-4458</span>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="contents_bg">
+            <div class="contents">
+                <div class="top">
+                    <div id="fnb">
+                        <a href="#">회사소개</a>
+                        <a href="#">사이트맵</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">위치기반서비스 이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">법적고지</a>
+                        <a href="#">윤리신고센터</a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="instagram"><img src="./images/instagram.png" alt=""></a>
+                        <a href="#" class="facebook"><img src="./images/facebook.png" alt=""></a>
+                        <a href="#" class="youtube"><img src="./images/youtube.png" alt=""></a>
+                        <a href="#" class="kakao"><img src="./images/kakao.png" alt=""></a>
+                    </div>
+                </div>
+                <div id="address">
+                    대표이사 : 한종문<span></span>주소 : 서울시 중구 동호로 15길 31, 종하빌딩 B동<br>사업자등록번호 : 873-85-00346<br>COPYRIGHT ⓒ MFGKOREA ALL RIGHTS RESERVED.
+                </div>
+                <div class="number">
+                    <p>홈페이지 관련 문의 <em>032-623-1530</em><br>대표번호 <strong>1577-1530</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
