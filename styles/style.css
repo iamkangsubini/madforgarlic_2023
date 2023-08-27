@@ -37,7 +37,7 @@ header .title nav a:first-child {
 
 
 /* main */
-main {}
+main { }
 /* main-1. swiper-slide */
 /* swiper 정식명칭 클래스는 웹 페이지 1장에서 swiper가 2개 이상 들어올 경우 디자인이 강제로 중복될 수 있으므로 개별 아이디 및 클래스를 사용해서 선택자를 만들고 디자인한다. */
 /* swiper-slide 반응형 설계를 할 경우 */
