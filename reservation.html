@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>PIZZA | MENU | Mad for Garlic</title>
+    <title>RESERVATION | Mad for Garlic</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/garlic_favicon.ico" type="image/x-icon">
     <link rel="icon" href="./images/garlic_favicon.ico" type="image/x-icon">
     <!-- style -->
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/menu_pizza.css">
+    <link rel="stylesheet" href="./styles/reservation.css">
 </head>
-<body>
+<body> 
     <!-- header -->
     <header>
         <!-- title -->
@@ -31,51 +31,54 @@
     <main>
         <section class="middle_title_bg">
             <div class="middle_title">
-                <h2>PIZZA</h2>
+                <h2>RESERVATION</h2>
             </div>
         </section>
-        <section class="pizza_kind_bg">
-            <div class="pizza_kind">
-                <div class="top">
-                    <div class="shrimp">
-                        <p class="img"><img src="./images/menu_pizza/shrimp_pizza.png" alt=""></p>
-                        <div class="name">
-                            <h3>Shrimp Bacon Pizza</h3>
-                            <p><em>￦</em>8,000</p>
-                        </div>
-                        <span></span>
-                        <p>새우와 베이컨이 토핑된 달콤한 맛의 피자</p>
-                    </div>
-                    <div class="diabola">
-                        <p class="img"><img src="./images/menu_pizza/diabola_pizza.png" alt=""></p>
-                        <div class="name">
-                            <h3>Diabola Pizza</h3>
-                            <p><em>￦</em>8,300</p>
-                        </div>
-                        <span></span>
-                        <p>스트레스 확 풀리는 매운맛 고수를 위한 피자</p>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="gorgonzola">
-                        <p class="img"><img src="./images/menu_pizza/gorgonzola_pizza.png" alt=""></p>
-                        <div class="name">
-                            <h3>Gorgonzola Pizza</h3>
-                            <p><em>￦</em>8,000</p>
-                        </div>
-                        <span></span>
-                        <p>고르곤졸라 치즈로 만든 피자를<br>달콤한 꿀에 찍어먹는 메뉴</p>
-                    </div>
-                    <div class="margherita">
-                        <p class="img"><img src="./images/menu_pizza/margherita_pizza.png" alt=""></p>
-                        <div class="name">
-                            <h3>Margherita Pizza</h3>
-                            <p><em>￦</em>7,500</p>
-                        </div>
-                        <span></span>
-                        <p>토마토 소스와 모짜렐라 치츠 위 바질페스토를<br>토핑파여 담백한 맛의 피자</p>
-                    </div>
-                </div>
+        <!-- reservation -->
+        <section class="reservation_bg">
+            <div class="reservation">
+                <form action="#" method="post" id="reservation_frm">
+                    <fieldset>
+                        <legend class="skip">예약양식</legend>
+                        <h2>RESERVATION</h2>
+                        <ul>
+                            <li class="day">
+                                <button id="date_btn" type="button">
+                                    <img src="./images/main/date.png" alt="">
+                                    <span>예약 날짜</span>
+                                </button>
+                                <button id="time_btn" type="button">
+                                    <img src="./images/main/time.png" alt="">
+                                    <span>예약 시간</span>
+                                </button>
+                            </li>
+                            <li class="area">
+                                <button id="area_btn" type="button">
+                                    <img src="./images/main/area.png" alt="">
+                                    <span>지역</span>
+                                </button>
+                            </li>
+                            <li class="line">
+                                <span></span>
+                            </li>
+                            <li class="personnel_input">
+                                <img src="./images/main/personnel.png" alt="">
+                                <input type="text" placeholder="인원수" name="user" id="personnel">
+                            </li>
+                            <li class="name_input">
+                                <img src="./images/main/name.png" alt="">
+                                <input type="text" placeholder="성함" name="user" id="name">
+                            </li>
+                            <li class="call_input">
+                                <img src="./images/main/call.png" alt="">
+                                <input type="text" placeholder="전화번호" name="user" id="call">
+                            </li>
+                            <li class="reservation_button">
+                                <button id="reservation_btn" type="button">예약하기</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>

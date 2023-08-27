@@ -50,7 +50,9 @@ main .middle_title_bg .middle_title {
 }
 main .middle_title_bg .middle_title h2 {
     font-family: 700; font-size: 3.157rem; letter-spacing: -0.02em; color: #fff;
-    text-align: center; padding: 282px; 
+    text-align: center; padding: 282px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 /* story */
 main .story_bg {background: #fff;}

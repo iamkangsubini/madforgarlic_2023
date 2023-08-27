@@ -326,7 +326,7 @@ main .reservation_bg .reservation #reservation_frm {
 main .reservation_bg .reservation #reservation_frm fieldset {
     display: flex; flex-flow: column nowrap; align-items: center;
 }
-main .reservation_bg .reservation #reservation_frm fieldset h2 {
+main .reservation_bg .reservation #reservation_frm fieldset .reservation_title {
     width: 858px; background: #cb0e05; padding: 50px 250px;
     font-weight: 700; font-size: 3.157rem; letter-spacing: -0.02em;
     color: #fff; border-radius: 20px 20px 0 0 ;
