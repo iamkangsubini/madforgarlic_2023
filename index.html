@@ -23,7 +23,7 @@
         <section class="title">
             <h1><a href="./index.html"><img src="./images/logo_white.png" alt="Mad for Garlic"></a></h1>
             <nav>
-                <a href="./brand.html">BRNAD</a>
+                <a href="./brand.html">BRAND</a>
                 <a href="./menu.html">MENU</a>
                 <a href="./store.html">STORE</a>
                 <a href="./reservation.html">RESERVATION</a>
@@ -37,9 +37,12 @@
             <!-- .swiper-warpper 슬라이드 한장한장을 묶어주는 슬라이드 영역 틀 -->
             <div class="swiper-wrapper">
                 <!-- swiper-slide  -->
-                <div class="swiper-slide slide1"></div>
-                <div class="swiper-slide slide2"></div>
-                <div class="swiper-slide slide3"></div>
+                <div class="swiper-slide slide1">
+                    <p class="txt1"><img src="./images/main/slide1_txt.png" alt=""></p>
+                </div>
+                <div class="swiper-slide slide2">
+                    <p class="txt2"><img src="./images/main/slide2_txt.png" alt=""></p>
+                </div>
             </div>
             <!-- 슬라이드 이전, 다음 버튼 -->
             <div class="swiper-button-prev"></div>
@@ -111,20 +114,47 @@
                         <a href="./reservation.html" class="reservation_title">RESERVATION</a>
                         <ul>
                             <li class="day">
-                                <button id="date_btn" type="button">
+                                <div id="date_btn">
                                     <img src="./images/main/date.png" alt="">
-                                    <span>예약 날짜</span>
-                                </button>
-                                <button id="time_btn" type="button">
+                                    <select>
+                                        <option>예약 날짜</option>
+                                        <option>2023-09-01</option>
+                                        <option>2023-09-02</option>
+                                        <option>2023-09-03</option>
+                                        <option>2023-09-04</option>
+                                        <option>2023-09-05</option>
+                                    </select>
+                                </div>
+                                <div id="time_btn">
                                     <img src="./images/main/time.png" alt="">
-                                    <span>예약 시간</span>
-                                </button>
+                                    <select>
+                                        <option>예약 시간</option>
+                                        <option>오후 12:00</option>
+                                        <option>오후 12:30</option>
+                                        <option>오후 1:00</option>
+                                        <option>오후 1:30</option>
+                                        <option>오후 2:00</option>
+                                        <option>오후 2:30</option>
+                                    </select>
+                                </div>
                             </li>
                             <li class="area">
-                                <button id="area_btn" type="button">
+                                <div id="area_btn">
                                     <img src="./images/main/area.png" alt="">
-                                    <span>지역</span>
-                                </button>
+                                    <select>
+                                        <option>지역</option>
+                                        <option>경남</option>
+                                        <option>광주</option>
+                                        <option>대구</option>
+                                        <option>대전</option>
+                                        <option>부산</option>
+                                        <option>서울</option>
+                                        <option>인천</option>
+                                        <option>전북</option>
+                                        <option>제주</option>
+                                        <option>충남</option>
+                                    </select>
+                                </div>
                             </li>
                             <li class="line">
                                 <span></span>

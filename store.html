@@ -20,7 +20,7 @@
         <section class="title">
             <h1><a href="./index.html"><img src="./images/logo_white.png" alt="Mad for Garlic"></a></h1>
             <nav>
-                <a href="./brand.html">BRNAD</a>
+                <a href="./brand.html">BRAND</a>
                 <a href="./menu.html">MENU</a>
                 <a href="./store.html">STORE</a>
                 <a href="./reservation.html">RESERVATION</a>
@@ -79,10 +79,18 @@
                                         </select>
                                     </li>
                                     <li class="service_li">
-                                        <button type="button" id="service_btn">
-                                            <span>매장서비스</span>
-                                            <img src="./images/store/selector.png" alt="">
-                                        </button>
+                                        <div id="service_btn">
+                                            <select>
+                                                <option>전체</option>
+                                                <option>배달서비스</option>
+                                                <option>돌잔치</option>
+                                                <option>이벤트홀</option>
+                                                <option>세미나시설</option>
+                                                <option>놀이방</option>
+                                                <option>수유실</option>
+                                                <option>Wifi가능</option>
+                                            </select>
+                                        </ㅇ>
                                     </li>
                                     <li class="name_li">
                                         <input type="text" id="store_name" placeholder="매장명을 입력하세요.">
@@ -226,5 +234,21 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=19b83781d931bf89fb017e6d0a7cad56"></script>
+    <script>
+        var container = document.getElementById('map_part'); //지도를 담을 영역의 DOM 레퍼런스
+        var options = { //지도를 생성할 때 필요한 기본 옵션
+            center: new kakao.maps.LatLng(37.5586793, 126.8336827), //지도의 중심좌표.
+            level: 3 //지도의 레벨(확대, 축소 정도)
+        };
+        var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+        var markerPosition  = new kakao.maps.LatLng(37.5586793, 126.8336827); 
+        // 마커를 생성합니다
+        var marker = new kakao.maps.Marker({
+            position: markerPosition
+        });
+        // 마커가 지도 위에 표시되도록 설정합니다
+        marker.setMap(map);
+    </script>
 </body>
 </html>

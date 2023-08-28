@@ -79,7 +79,7 @@ main .search_bg .search .left .village {
 main .search_bg .search .left .underline {
     font-weight: 500; font-size: 1.2rem;
     letter-spacing: -0.02em; color: #472319;
-    line-height: 33px; text-decoration: un;
+    line-height: 33px; text-decoration: underline;
 }
 main .search_bg .search .right {
     padding: 140px 0 70px;
@@ -103,7 +103,6 @@ main .find_bg .find #store_find_frm fieldset > ul {}
 main .find_bg .find #store_find_frm fieldset > ul > li {}
 main .find_bg .find #store_find_frm fieldset > ul .map {}
 main .find_bg .find #store_find_frm fieldset > ul .map #map_part {
-    background: #787878;
     width: 1040px; height: 500px; border-radius: 10px;
 }
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group {
@@ -113,7 +112,7 @@ main .find_bg .find #store_find_frm fieldset > ul > li #select_group {
 }
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .sity_li {}
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .sity_li #sity_select {
-    width: 138px; padding: 15px 10px 15px 15px;
+    width: 138px; padding: 15px;
     border-radius: 10px; background: #fff;
     border: 1px solid #222;
     font-size: 1.2rem; letter-spacing: -0.02em;
@@ -125,7 +124,7 @@ main .find_bg .find #store_find_frm fieldset > ul > li #select_group .sity_li #s
 }
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .zone_li {}
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .zone_li #zone_select {
-    width: 138px; padding: 15px 10px 15px 15px;
+    width: 138px; padding: 15px;
     border-radius: 10px; background: #fff;
     border: 1px solid #222;
     font-size: 1.2rem; letter-spacing: -0.02em;
@@ -138,15 +137,17 @@ main .find_bg .find #store_find_frm fieldset > ul > li #select_group .zone_li #z
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li {}
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn {
     background: #fff; width: 190px; 
-    padding: 15px 10px 15px 15px;
+    padding: 15px;
     border: 1px solid #222; border-radius: 10px;
 }
-main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn span {
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn select {
+    width: 100%; border: 0;
     font-size: 1.2rem; letter-spacing: -0.02em;
     color: #787878; margin-right: 47px;
 }
-main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn img {
-    width: 15px; height: 15px;
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn select option {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878;
 }
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .name_li {}
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .name_li #store_name {
@@ -159,8 +160,9 @@ main .find_bg .find #store_find_frm fieldset > ul > li #select_group .return_li 
     background: #787878; border-radius: 10px;
     width: 115px; padding: 15px;
     display: flex; flex-flow: row nowrap;
-    align-items: center;
+    align-items: center; transition: background 0.3s;
 }
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .return_li #return_btn:hover {background: #cb0e05;}
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .return_li #return_btn img {
     width: 20px; height: 20px; margin-right: 4px;
 }
@@ -173,7 +175,10 @@ main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li 
     background: #ad8350; border-radius: 10px;
     width: 115px; padding: 15px 22px;
     display: flex; flex-flow: row nowrap;
-    align-items: center;
+    align-items: center; transition: background 0.3s;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li #search_btn:hover {
+    background: #cb0e05;
 }
 main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li #search_btn img {
     width: 20px; height: 20px; margin-right: 10px;

@@ -56,55 +56,67 @@ main .kind_bg {background: #fff;}
 main .kind_bg .kind {
     width: 1180px; height: 800px; margin: 0 auto;
     display: flex; flex-flow: row nowrap; justify-content: space-between;
-    align-items: center; padding: 0 83px;
+    align-items: center; padding: 0 170px;
 }
 /* pasta */
 main .kind_bg .kind .pasta {
-    width: 238px; height: 321px; 
     display: flex; flex-flow: column nowrap; justify-content: space-between; 
     align-items: center;
 }
 main .kind_bg .kind .pasta p {
-    width: 238px; height: 244px;
+    width: 120px; height: 123.03px;
     background-image: url(../images/menu/pasta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: background-image 0.2s;
+    margin-bottom: 40px;
 }
 main .kind_bg .kind .pasta p:hover {
     background-image: url(../images/menu/pasta_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main .kind_bg .kind .pasta h3 {
     font-weight: 700; font-size: 2.2rem; letter-spacing: -0.02em; color: #cb0e05;
 }
 /* pizza */
 main .kind_bg .kind .pizza {
-    width: 238px; height: 321px; 
     display: flex; flex-flow: column nowrap; justify-content: space-between; 
     align-items: center;
 }
 main .kind_bg .kind .pizza p {
-    width: 238px; height: 244px;
+    width: 120px; height: 123.03px;
     background-image: url(../images/menu/pizza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: background-image 0.2s;
+    margin-bottom: 40px;
 }
 main .kind_bg .kind .pizza p:hover {
     background-image: url(../images/menu/pizza_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main .kind_bg .kind .pizza h3 {
     font-weight: 700; font-size: 2.2rem; letter-spacing: -0.02em; color: #cb0e05;
 }
 /* steak */
 main .kind_bg .kind .steak {
-    width: 238px; height: 321px; 
     display: flex; flex-flow: column nowrap; justify-content: space-between; 
     align-items: center;
 }
 main .kind_bg .kind .steak p {
-    width: 238px; height: 244px;
+    width: 120px; height: 123.03px;
     background-image: url(../images/menu/steak.png);
-    transition: background-image 0.2s;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.2s;
+    margin-bottom: 40px;
 }
 main .kind_bg .kind .steak p:hover {
     background-image: url(../images/menu/steak_hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main .kind_bg .kind .steak h3 {
     font-weight: 700; font-size: 2.2rem; letter-spacing: -0.02em; color: #cb0e05;

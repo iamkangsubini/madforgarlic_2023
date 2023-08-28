@@ -49,24 +49,24 @@ main #madforgarlic_slide {
 main #madforgarlic_slide .swiper-wrapper {}
 main #madforgarlic_slide .swiper-wrapper .swiper-slide {}
 main #madforgarlic_slide .swiper-wrapper .slide1 {
-    background: url(../images/slide1.jpg);
+    background: url(../images/main/slide1.jpg);
     background-size: cover;
+    position: relative;
 }
+main #madforgarlic_slide .swiper-wrapper .slide1 .txt1 {
+    width: 632px; height: 278px; position: absolute;
+    top: 348px; right: 217px;
+}
+main #madforgarlic_slide .swiper-wrapper .slide1 .txt1 img {}
 main #madforgarlic_slide .swiper-wrapper .slide2 {
-    background-image: url(../images/slide1.jpg);
+    background: url(../images/main/slide2.jpg);
+    background-size: cover; position: relative;
 }
-main #madforgarlic_slide .swiper-wrapper .slide3 {
-    background: url(../images/date.png);
-    background-size: cover;
+main #madforgarlic_slide .swiper-wrapper .slide2 .txt2 {
+    width: 1497px; height: 225px; position: absolute;
+    top: 127px; right: 181px;
 }
-main #bin_slide .swiper-button-prev {
-    background: url(../images/left2\ arrow.png) no-repeat;
-    left: 20px;
-}
-main #bin_slide .swiper-button-next {
-    background: url(../images/right2\ arrow.png) no-repeat;
-    right: 20px;
-}
+main #madforgarlic_slide .swiper-wrapper .slide2 .txt2 img {width: 100%;}
 /* swiper-slide prev, next 기본 css(position:absolute)내장 */
 /* 위치를 움직이고 싶다면 position속성 추가작성없이 방향값추가 */
 main #madforgarlic_slide.swiper .swiper-button-prev,
@@ -161,14 +161,14 @@ main .bestmenu .contents .food_left .explanation p {
     margin-bottom: 40px;
 }
 main .bestmenu .contents .food_left .explanation #view_btn {
-    width: 185px; height: 55px;
-    background: #fff; padding: 20px 0px; text-align: center;
+    width: 185px; line-height: 55px;
+    background: #fff; text-align: center;
     border-radius: 50px;
     font-weight: 500; font-size: 1.2rem; letter-spacing: -0.02em;
-    color: #222; transition: color 0.3s;
+    color: #222; transition: color 0.2s; transition: background 0.2s;
 }
 main .bestmenu .contents .food_left .explanation #view_btn:hover {
-    color: #cb0e05;
+    color: #fff; background: #cb0e05;
 }
 /* food_right */
 main .bestmenu .contents .food_right {
@@ -203,14 +203,14 @@ main .bestmenu .contents .food_right .explanation p {
     margin-bottom: 40px;
 }
 main .bestmenu .contents .food_right .explanation #view_btn2 {
-    width: 185px; height: 55px;
-    background: #fff; padding: 20px 0; text-align: center;
+    width: 185px; line-height: 55px;
+    background: #fff; text-align: center;
     border-radius: 50px;
     font-weight: 500; font-size: 1.2rem; letter-spacing: -0.02em;
-    color: #222; transition: color 0.3s;
+    color: #222; transition: color 0.2s; transition: background 0.2s;
 }
 main .bestmenu .contents .food_right .explanation #view_btn2:hover {
-    color: #cb0e05;
+    color: #fff; background: #cb0e05;
 }
 /* bestmenu-btm */
 main .bestmenu .bottom {
@@ -311,16 +311,14 @@ main .membership_bg .membership .contents .badge .detail {
 }
 /* reservation */
 main .reservation_bg {
-    width: 100%; height: 1278px;
+    width: 100%;
     background:  url(../images/main/reservation_bg.jpg) no-repeat center;
     background-size: cover;
 }
 main .reservation_bg .reservation {
-    width: 1180px; height: 1278px;
     margin: 0 auto; padding: 140px 161px;
 }
 main .reservation_bg .reservation #reservation_frm {
-    width: 858px; height: 998px;
     display: flex; flex-flow: column nowrap;
 }
 main .reservation_bg .reservation #reservation_frm fieldset {
@@ -352,9 +350,11 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn {
 main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn img {
     width: 25px; height: 25px; margin: 0 30px;
 }
-main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn span {
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn select {
+    width: 70%; border: 0; height: 70%;
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn select option {font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;}
 main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn {
     background: #fff; border: 1px solid #787878; border-radius: 15px;
     width: 299px; height: 75px;
@@ -363,9 +363,11 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn {
 main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn img {
     width: 25px; height: 25px; margin: 0 30px;
 }
-main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn span {
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn select {
+    width: 60%; border: 0; height: 70%;
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn select option {font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;}
 /* form-area */
 main .reservation_bg .reservation #reservation_frm fieldset ul .area {
     margin-bottom: 50px;
@@ -378,9 +380,11 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn {
 main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn img {
     width: 25px; height: 25px; margin: 0 30px;
 }
-main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn span {
+main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn select {
+    width: 85%; border: 0; height: 70%;
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
+main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn select option {font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;}
 /* form-line */
 main .reservation_bg .reservation #reservation_frm fieldset ul .line {
     margin-bottom: 50px;
@@ -401,6 +405,7 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .personnel_input 
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .personnel_input #personnel {
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+    width: 100%;
 }
 /* form-name */
 main .reservation_bg .reservation #reservation_frm fieldset ul .name_input {
@@ -414,6 +419,7 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .name_input img {
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .name_input #name {
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+    width: 100%;
 }
 /* form-call */
 main .reservation_bg .reservation #reservation_frm fieldset ul .call_input {
@@ -427,6 +433,7 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .call_input img {
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .call_input #call {
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+    width: 100%;
 }
 /* form-reservation_btn */
 main .reservation_bg .reservation #reservation_frm fieldset ul .reservation_button {}

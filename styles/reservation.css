@@ -52,15 +52,14 @@ main .middle_title_bg .middle_title h2 {
     text-decoration-thickness: 2px;
 }
 /* reservation */
-main .reservation_bg {background: #fff;}
+main .reservation_bg {}
 main .reservation_bg .reservation {
-    width: 1180px; height: 1278px;
+    width: 100%;
     background:  url(../images/reservation/three_image_bg.jpg) no-repeat center;
     background-size: cover;
     margin: 0 auto; padding: 140px 161px;
 }
 main .reservation_bg .reservation #reservation_frm {
-    width: 858px; height: 998px;
     display: flex; flex-flow: column nowrap;
 }
 main .reservation_bg .reservation #reservation_frm fieldset {
@@ -92,7 +91,11 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn {
 main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn img {
     width: 25px; height: 25px; margin: 0 30px;
 }
-main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn span {
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #date_btn select {
+    width: 70%; border: 0; height: 70%;
+    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+}
+#reservation_frm fieldset ul .day #date_btn select option {
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn {
@@ -103,7 +106,11 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn {
 main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn img {
     width: 25px; height: 25px; margin: 0 30px;
 }
-main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn span {
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn select {
+    width: 60%; border: 0; height: 70%;
+    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+}
+main .reservation_bg .reservation #reservation_frm fieldset ul .day #time_btn select option {
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
 /* form-area */
@@ -118,7 +125,11 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn {
 main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn img {
     width: 25px; height: 25px; margin: 0 30px;
 }
-main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn span {
+main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn select {
+    width: 85%; border: 0; height: 70%;
+    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+}
+main .reservation_bg .reservation #reservation_frm fieldset ul .area #area_btn select option {
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
 /* form-line */
@@ -140,6 +151,7 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .personnel_input 
     width: 25px; height: 25px; margin: 0 30px;
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .personnel_input #personnel {
+    width: 100%;
     font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
 }
 /* form-name */
@@ -153,7 +165,7 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .name_input img {
     width: 25px; height: 25px; margin: 0 30px;
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .name_input #name {
-    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878; width: 100%;
 }
 /* form-call */
 main .reservation_bg .reservation #reservation_frm fieldset ul .call_input {
@@ -166,7 +178,7 @@ main .reservation_bg .reservation #reservation_frm fieldset ul .call_input img {
     width: 25px; height: 25px; margin: 0 30px;
 }
 main .reservation_bg .reservation #reservation_frm fieldset ul .call_input #call {
-    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878;
+    font-size: 1.5rem; letter-spacing: -0.02em; color: #787878; width: 100%;
 }
 /* form-reservation_btn */
 main .reservation_bg .reservation #reservation_frm fieldset ul .reservation_button {}
