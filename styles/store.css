@@ -1,0 +1,519 @@
+/* header */
+header {
+    background-color: #000;
+}
+/* title */
+header .title {
+    width: 1180px; margin: 0 auto;
+    padding: 33.43px 0;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .title h1 {
+    width: 230px; height: 33.14px;
+}
+header .title h1 a {}
+header .title h1 a img {
+    width: 100%;
+}
+header .title nav {
+}
+header .title nav a {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 1.777rem; font-weight: 700;
+    letter-spacing: -0.02em;
+    transition: border-bottom 0.5s;
+    transition: padding-bottom 0.5s;
+}
+header .title nav a:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+}
+header .title nav a:first-child {
+    margin-left: 0;
+}
+
+/* main */
+main {}
+main .middle_title_bg {
+    width: 100%; height: 600px; 
+    background: url(../images/store/store_bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+main .middle_title_bg .middle_title {
+    width: 1180px; height: 600px; margin: 0 auto;
+}
+main .middle_title_bg .middle_title h2 {
+    font-family: 700; font-size: 3.157rem; letter-spacing: -0.02em; color: #fff;
+    text-align: center; padding: 282px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+/* search */
+main .search_bg {
+    background: #fff;
+}
+main .search_bg .search {
+    width: 1180px; height: 515px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .search_bg .search .left {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 203px 0 133px;
+}
+main .search_bg .search .left h3 {
+    font-weight: 700; font-size: 3.157rem;
+    letter-spacing: -0.02em; color: #222;
+    margin-bottom: 50px;
+}
+main .search_bg .search .left .village {
+    font-weight: 700; font-size: 1.5rem;
+    letter-spacing: -0.02em; color: #cb0e05;
+    margin-bottom: 25px;
+}
+main .search_bg .search .left .underline {
+    font-weight: 500; font-size: 1.2rem;
+    letter-spacing: -0.02em; color: #472319;
+    line-height: 33px; text-decoration: un;
+}
+main .search_bg .search .right {
+    padding: 140px 0 70px;
+}
+main .search_bg .search .right img {
+    width: 469px; height: 305px;
+}
+main .find_bg {
+    background: #fff;
+}
+main .find_bg .find {
+    width: 1180px; margin: 0 auto;
+}
+main .find_bg .find #store_find_frm {}
+main .find_bg .find #store_find_frm fieldset {
+    width: 1040px; margin: 0 auto;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul {}
+main .find_bg .find #store_find_frm fieldset > ul > li {}
+main .find_bg .find #store_find_frm fieldset > ul .map {}
+main .find_bg .find #store_find_frm fieldset > ul .map #map_part {
+    background: #787878;
+    width: 1040px; height: 500px; border-radius: 10px;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group {
+    width: 1040px; padding: 35px 0;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .sity_li {}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .sity_li #sity_select {
+    width: 138px; padding: 15px 10px 15px 15px;
+    border-radius: 10px; background: #fff;
+    border: 1px solid #222;
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .sity_li #sity_select option {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .zone_li {}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .zone_li #zone_select {
+    width: 138px; padding: 15px 10px 15px 15px;
+    border-radius: 10px; background: #fff;
+    border: 1px solid #222;
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .zone_li #zone_select option {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li {}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn {
+    background: #fff; width: 190px; 
+    padding: 15px 10px 15px 15px;
+    border: 1px solid #222; border-radius: 10px;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878; margin-right: 47px;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .service_li #service_btn img {
+    width: 15px; height: 15px;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .name_li {}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .name_li #store_name {
+    width: 281px; padding: 15px 75px 15px 15px;
+    background-color: #fff; border: 1px solid #222;
+    border-radius: 10px; font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #787878;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .return_li #return_btn {
+    background: #787878; border-radius: 10px;
+    width: 115px; padding: 15px;
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .return_li #return_btn img {
+    width: 20px; height: 20px; margin-right: 4px;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .return_li #return_btn span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #fff;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li {}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li #search_btn {
+    background: #ad8350; border-radius: 10px;
+    width: 115px; padding: 15px 22px;
+    display: flex; flex-flow: row nowrap;
+    align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li #search_btn img {
+    width: 20px; height: 20px; margin-right: 10px;
+}
+main .find_bg .find #store_find_frm fieldset > ul > li #select_group .search_li #search_btn span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #fff;
+}
+main .find_bg .find #store_find_frm fieldset > ul .location {
+    width: 1040px; display: flex; flex-flow: row nowrap;
+    justify-content: flex-start; align-items: center;
+    margin-bottom: 20px;
+}
+main .find_bg .find #store_find_frm fieldset > ul .location img {
+    width: 20px; height: 20px;
+}
+main .find_bg .find #store_find_frm fieldset > ul .location span {
+    font-size: 1.2rem; letter-spacing: -0.02em; 
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul .line {}
+main .find_bg .find #store_find_frm fieldset > ul .line span {
+    width: 1040px; height: 3px; background: #cb0e05;
+    display: block;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place {
+    width: 1040px; padding: 90px 70px;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between;
+}  
+/* first-line */
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line {
+    width: 900px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .left .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .first_line .right .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+/* second-line */
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line {
+    width: 900px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .left .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .second_line .right .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+/* third-line */
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line {
+    width: 900px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .left .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .third_line .right .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+/* fourth-line */
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line {
+    width: 900px; display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .left .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right {
+    width: 400px; height: 190px; text-align: center;
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right h4 {
+    font-weight: 700; font-size: 2.2rem;
+    letter-spacing: -0.02em; color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right .red_line {
+    width: 400px; height: 1px; display: block;
+    background: #cb0e05;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right .address {
+    font-family: 500; font-size: 1.2rem;
+    line-height: 30px; letter-spacing: -0.02em;
+    color: #222;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right .number {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right .number img {width: 25px; height: 25px; margin-right: 10px;}
+main .find_bg .find #store_find_frm fieldset > ul #place .fourth_line .right .number span {
+    font-size: 1.2rem; letter-spacing: -0.02em;
+    color: #222;
+}
+
+/* footer */
+footer {}
+footer .contents_bg {background: #000;}
+footer .contents_bg .contents {
+    width: 1180px; margin: 0 auto;
+    display: flex; flex-flow: column nowrap;
+    align-items: flex-start; padding: 50px 0;
+    color: #fff;
+}
+/* top */
+footer .contents_bg .contents .top {
+    width: 1180px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    margin-bottom: 25px;
+}
+footer .contents_bg .contents .top #fnb {
+    display: flex; flex-flow: row nowrap;
+}
+footer .contents_bg .contents .top #fnb a {
+    color: #fff; font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.02em;
+    margin-right: 10px;
+    position: relative;
+}
+footer .contents_bg .contents .top #fnb a::after {
+    display: inline-block; content: ''; width: 1px; height: 11px; 
+    background: #fff; margin: 0 6px 0 15px;
+}
+footer .contents_bg .contents .top #fnb a:nth-child(7)::after {
+    display: none;
+}
+footer .contents_bg .contents .top .link {}
+footer .contents_bg .contents .top .link .instagram {
+    width: 35px; height: 35px;
+}
+footer .contents_bg .contents .top .link .instagram img {}
+footer .contents_bg .contents .top .link .facebook {
+    width: 35px; height: 35px;
+    margin-left: 10px;
+}
+footer .contents_bg .contents .top .link .facebook img {}
+footer .contents_bg .contents .top .link .youtube {
+    width: 35px; height: 35px;
+    margin-left: 10px;
+}
+footer .contents_bg .contents .top .link .youtube img {}
+footer .contents_bg .contents .top .link .kakao {
+    margin-left: 10px;
+    width: 35px; height: 35px;
+}
+footer .contents_bg .contents .top .link .kakao img {}
+/* address */
+footer .contents_bg #address {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.02em; line-height: 26px;
+    margin-bottom: 25px;
+}
+footer .contents_bg #address span {
+    display: inline-block; width: 1px; height: 11px; margin: 0 10px;
+    background: #fff;
+}
+/* number */
+footer .contents_bg .number {}
+footer .contents_bg .number p {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.02em; line-height: 26px;
+}
+footer .contents_bg .number p em,
+footer .contents_bg .number p strong {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700; font-size: 1.333rem; letter-spacing: -0.02em;
+}

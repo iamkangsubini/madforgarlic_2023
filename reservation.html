@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>RESERVATION | Mad for Garlic</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/garlic_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/garlic_favicon.ico" type="image/x-icon">
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/reservation.css">
+</head>
+<body> 
+    <!-- header -->
+    <header>
+        <!-- title -->
+        <section class="title">
+            <h1><a href="./index.html"><img src="./images/logo_white.png" alt="Mad for Garlic"></a></h1>
+            <nav>
+                <a href="./brand.html">BRNAD</a>
+                <a href="./menu.html">MENU</a>
+                <a href="./store.html">STORE</a>
+                <a href="./reservation.html">RESERVATION</a>
+            </nav>
+        </section>
+    </header>
+    <!-- main -->
+    <main>
+        <section class="middle_title_bg">
+            <div class="middle_title">
+                <h2>RESERVATION</h2>
+            </div>
+        </section>
+        <!-- reservation -->
+        <section class="reservation_bg">
+            <div class="reservation">
+                <form action="#" method="post" id="reservation_frm">
+                    <fieldset>
+                        <legend class="skip">예약양식</legend>
+                        <h2>RESERVATION</h2>
+                        <ul>
+                            <li class="day">
+                                <button id="date_btn" type="button">
+                                    <img src="./images/main/date.png" alt="">
+                                    <span>예약 날짜</span>
+                                </button>
+                                <button id="time_btn" type="button">
+                                    <img src="./images/main/time.png" alt="">
+                                    <span>예약 시간</span>
+                                </button>
+                            </li>
+                            <li class="area">
+                                <button id="area_btn" type="button">
+                                    <img src="./images/main/area.png" alt="">
+                                    <span>지역</span>
+                                </button>
+                            </li>
+                            <li class="line">
+                                <span></span>
+                            </li>
+                            <li class="personnel_input">
+                                <img src="./images/main/personnel.png" alt="">
+                                <input type="text" placeholder="인원수" name="user" id="personnel">
+                            </li>
+                            <li class="name_input">
+                                <img src="./images/main/name.png" alt="">
+                                <input type="text" placeholder="성함" name="user" id="name">
+                            </li>
+                            <li class="call_input">
+                                <img src="./images/main/call.png" alt="">
+                                <input type="text" placeholder="전화번호" name="user" id="call">
+                            </li>
+                            <li class="reservation_button">
+                                <button id="reservation_btn" type="button">예약하기</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="contents_bg">
+            <div class="contents">
+                <div class="top">
+                    <div id="fnb">
+                        <a href="#">회사소개</a>
+                        <a href="#">사이트맵</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">위치기반서비스 이용약관</a>
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">법적고지</a>
+                        <a href="#">윤리신고센터</a>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="instagram"><img src="./images/instagram.png" alt=""></a>
+                        <a href="#" class="facebook"><img src="./images/facebook.png" alt=""></a>
+                        <a href="#" class="youtube"><img src="./images/youtube.png" alt=""></a>
+                        <a href="#" class="kakao"><img src="./images/kakao.png" alt=""></a>
+                    </div>
+                </div>
+                <div id="address">
+                    대표이사 : 한종문<span></span>주소 : 서울시 중구 동호로 15길 31, 종하빌딩 B동<br>사업자등록번호 : 873-85-00346<br>COPYRIGHT ⓒ MFGKOREA ALL RIGHTS RESERVED.
+                </div>
+                <div class="number">
+                    <p>홈페이지 관련 문의 <em>032-623-1530</em><br>대표번호 <strong>1577-1530</strong></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const reservation_btn = document.querySelector('#reservation_btn')
+        console.log(date_btn, time_btn, area_btn, reservation_btn)
+        //예약하기 버튼 눌렀을때 팝업창뜨기
+        reservation_btn.addEventListener('click',function(){
+            window.alert('예약이 완료되었습니다😊')
+        });
+    </script>
+</body>
+</html>
