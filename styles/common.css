@@ -1,4 +1,7 @@
-/* common.css 모든 웹페에지 공통 css == common */
+/* 1. 반응형웹 */
+header, main, footer {min-width: 1180px;}
+
+/* 2. common.css 모든 웹페에지 공통 css == common */
 /* common.css == header, footer 공통영역 Design */
 /* header */
 header {
